@@ -1,17 +1,59 @@
 # bond_pricing.py
 
-def bond_price(face_value, coupon_rate, yield_rate, maturity):
+import numpy as np
 
-    coupon = face_value * coupon_rate
 
-    price = 0
+def bond_price(face_value, coupon_rate, yield_rate, years_to_maturity, frequency=2):
+    """
+    Calculate bond price using discounted cash flows.
 
-    # Discount coupon payments
-    for t in range(1, maturity + 1):
+    Parameters:
+        face_value (float): Face/par value of bond
+        coupon_rate (float): Annual coupon rate (e.g. 0.05 for 5%)
+        yield_rate (float): Annual yield to maturity (e.g. 0.06 for 6%)
+        years_to_maturity (float): Years remaining until maturity
+        frequency (int): Coupon payments per year
 
-        price += coupon / ((1 + yield_rate) ** t)
+    Returns:
+        float: Bond price
+    """
 
-    # Discount face value
-    price += face_value / ((1 + yield_rate) ** maturity)
+    periods = int(years_to_maturity * frequency)
 
-    return round(price, 2)
+    coupon_payment = (
+        face_value * coupon_rate / frequency
+    )
+
+    discount_rate = yield_rate / frequency
+
+    cash_flows = np.full(periods, coupon_payment)
+    cash_flows[-1] += face_value
+
+    discount_factors = [
+        (1 + discount_rate) ** t
+        for t in range(1, periods + 1)
+    ]
+
+    price = np.sum(
+        cash_flows / np.array(discount_factors)
+    )
+
+    return price
+
+
+def current_yield(face_value, coupon_rate, market_price):
+    """
+    Calculate current yield.
+    """
+
+    annual_coupon = face_value * coupon_rate
+
+    return annual_coupon / market_price
+
+
+def price_change_percentage(old_price, new_price):
+    """
+    Calculate percentage price change.
+    """
+
+    return ((new_price - old_price) / old_price) * 100

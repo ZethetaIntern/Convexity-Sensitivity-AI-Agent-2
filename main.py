@@ -9,3 +9,5 @@ results = portfolio_summary(bond_df)
 
 for metric, value in results.items():
     print(f"{metric}: {value}")
+
+

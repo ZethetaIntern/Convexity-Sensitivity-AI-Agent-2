@@ -120,3 +120,33 @@ Data Analytics | Risk Analytics | Machine Learning
 - Market Values
 
 
+## Key Findings
+
+### Credit Rating Analysis
+- Sovereign bonds represent the largest portion of portfolio market value.
+- Majority of investments are concentrated in highly rated securities (SOV and AAA).
+- Portfolio exhibits low credit risk exposure.
+
+### Duration vs Convexity Analysis
+- Strong positive relationship between duration and convexity.
+- Long-duration bonds are more sensitive to interest rate changes.
+- Portfolio interest-rate risk is concentrated in high-duration securities.
+
+
+
+# Portfolio Risk Findings
+
+- Government sector dominates portfolio allocation.
+- Portfolio duration indicates moderate interest-rate sensitivity.
+- Convexity provides positive protection against large rate moves.
+- Risk is concentrated in a small number of sectors.
+- Portfolio yield remains above 7%.
+
+
+# Yield Curve Findings
+
+- Yield curve is generally upward sloping.
+- Long-term rates are higher than short-term rates.
+- Indicates normal market conditions.
+- Forward rates suggest expectations of future interest rates.
+- Zero rates remain close to observed market yields.

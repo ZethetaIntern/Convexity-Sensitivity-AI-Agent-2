@@ -23,3 +23,8 @@ def portfolio_summary(df):
         "Portfolio Convexity": weighted_convexity,
         "Portfolio Yield": weighted_yield
     }
+
+
+
+
+
