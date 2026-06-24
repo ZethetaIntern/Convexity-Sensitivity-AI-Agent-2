@@ -70,6 +70,8 @@ The solution will combine bond pricing, duration and convexity analytics, yield 
 
 ---
 
+
+
 ## Tools & Technologies
 
 - Python
@@ -88,3 +90,33 @@ The solution will combine bond pricing, duration and convexity analytics, yield 
 **Renu Shokeen**
 
 Data Analytics | Risk Analytics | Machine Learning
+
+
+
+
+## Day 2 Progress
+
+### Completed
+
+- Imported bond portfolio dataset (44 columns)
+- Built portfolio risk analytics module
+- Calculated:
+  - Portfolio Duration
+  - Portfolio Convexity
+  - Portfolio Yield
+  - Total Market Value
+- Created exploratory data analysis notebook
+- Visualized market value distribution by credit rating
+
+### Dataset Features
+
+- Duration Metrics
+- Convexity Metrics
+- DV01
+- OAS Spread
+- Z Spread
+- Interest Rate Sensitivity
+- Portfolio Weights
+- Market Values
+
+
