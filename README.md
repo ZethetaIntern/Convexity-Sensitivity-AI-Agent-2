@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-<<<<<<< HEAD
+
 A Python-based financial analytics project designed to evaluate fixed-income securities and portfolio risk. The project implements bond pricing models, duration and convexity analysis, Monte Carlo simulations, and yield curve analytics to support investment decision-making and risk assessment.
 =======
 A comprehensive financial analytics project focused on bond valuation, portfolio risk assessment, yield curve analysis, and Monte Carlo simulation. This project leverages Python, SQL, and data visualization techniques to analyze fixed-income securities and support data-driven investment decisions.
@@ -21,13 +21,13 @@ Financial analysts and portfolio managers need effective tools to:
 * Support investment decision-making through quantitative analytics
 
 This project provides a structured analytical framework to address these challenges.
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
+
 
 ---
 
 ## Business Problem
 
-<<<<<<< HEAD
+
 Fixed-income investors and portfolio managers need reliable methods to:
 
 * Evaluate bond valuations
@@ -99,7 +99,7 @@ This project provides an analytical framework to address these challenges using 
 * Jupyter Notebook
 * Git
 * GitHub
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
+
 
 ---
 
@@ -120,7 +120,7 @@ Bond_Analytics_AI_Agent/
 │   ├── monte_carlo.py
 │   └── yield_curve.py
 │
-<<<<<<< HEAD
+
 =======
 ├── sql/
 │   └── portfolio_analysis.sql
@@ -136,7 +136,7 @@ Bond_Analytics_AI_Agent/
 │
 └── README.md
 ```
-<<<<<<< HEAD
+
 =======
 
 ---
@@ -336,7 +336,7 @@ This solution enables analysts and portfolio managers to:
 
 ## Technologies Used
 
-<<<<<<< HEAD
+
 * Python
 * Pandas
 * NumPy
@@ -409,20 +409,7 @@ This interactive Power BI dashboard provides insights into:
 
 ![Bond Analytics Dashboard] (Screenshot 2026-06-25 221149.png)
 
-## Screenshots
 
-### Portfolio Dashboard
-
-(Add Screenshot Here)
-
-### Yield Curve Analysis
-
-(Add Screenshot Here)
-
-### Monte Carlo Simulation
-
-(Add Screenshot Here)
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
 
 ---
 
@@ -432,7 +419,7 @@ This interactive Power BI dashboard provides insights into:
 
 Data Analyst | Python | SQL | Power BI | Financial Analytics
 
-<<<<<<< HEAD
+
 ### Connect
 
 * LinkedIn: https://www.linkedin.com/in/renu-shokeen-428756364?utm_source=share_via&utm_content=profile&utm_medium=member_android
@@ -441,7 +428,6 @@ Data Analyst | Python | SQL | Power BI | Financial Analytics
 
 
 
-=======
 ### Skills
 
 * Data Analysis
@@ -457,17 +443,9 @@ Data Analyst | Python | SQL | Power BI | Financial Analytics
 ## GitHub Portfolio Project
 
 This project was developed as part of a hands-on financial analytics and portfolio risk management learning initiative, demonstrating practical applications of Python, SQL, quantitative finance, and data visualization techniques.
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
-
-
-
-
-
-<<<<<<< HEAD
-
 
 
 
 
 =======
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
+
