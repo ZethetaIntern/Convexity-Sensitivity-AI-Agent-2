@@ -401,7 +401,7 @@ This interactive Power BI dashboard provides insights into:
 
 ### Dashboard Preview
 
-![Bond Analytics & Yield Curve Dashboard] (powerbi/Dashboard_screenshot.png)
+[Bond Analytics & Yield Curve Dashboard] (powerbi/Dashboard_screenshot.png)
 
 
 
