@@ -105,36 +105,30 @@ This project provides an analytical framework to address these challenges using 
 
 ## Project Structure
 
-```text
-Bond_Analytics_AI_Agent/
+
+Convexity-Sensitivity-AI-Agent/
 │
-├── data/
-│   ├── bonds.csv
-│   ├── portfolio.csv
-│   └── yield_curve.csv
+├── data/raw/
+│   ├── bond_portfolio_data.csv
+│   ├── monte_carlo_scenarios.csv
+│   └── yield_curve_history.csv
 │
+├── notebooks/
+├── powerbi/
+├── sql/
 ├── src/
 │   ├── bond_pricing.py
 │   ├── data_loader.py
 │   ├── duration_convexity.py
 │   ├── monte_carlo.py
-│   └── yield_curve.py
+│   ├── risk_metrics.py
+│   ├── yield_curve.py
+│   └── main.py
 │
+├── README.md
+└── requirements.txt
 
-=======
-├── sql/
-│   └── portfolio_analysis.sql
-│
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
-├── notebooks/
-│   ├── 01_bond_pricing.ipynb
-│   ├── 02_duration_convexity.ipynb
-│   ├── 03_portfolio_risk_analysis.ipynb
-│   ├── 04_monte_carlo_simulation.ipynb
-│   ├── 05_yield_curve_analysis.ipynb
-│   └── portfolio_dashboard.ipynb
-│
-└── README.md
+
 ```
 
 =======
@@ -330,7 +324,7 @@ This solution enables analysts and portfolio managers to:
 * Portfolio optimization algorithms
 * Power BI integration
 * Automated reporting pipelines
->>>>>>> 8781bd0 (Added dashboard screenshot to README)
+
 
 ---
 
@@ -407,7 +401,7 @@ This interactive Power BI dashboard provides insights into:
 
 ### Dashboard Preview
 
-![Bond Analytics Dashboard] (Screenshot 2026-06-25 221149.png)
+![Bond Analytics & Yield Curve Dashboard] (powerbi/Dashboard_screenshot.png)
 
 
 
