@@ -401,7 +401,27 @@ This interactive Power BI dashboard provides insights into:
 
 ### Dashboard Preview
 
-[Bond Analytics & Yield Curve Dashboard] (powerbi/Dashboard_screenshot.png)
+![Bond Analytics & Yield Curve Dashboard](powerbi/Dashboard_screenshot.png)
+
+
+
+
+## Monte Carlo Simulation
+
+![Monte Carlo](MonteCarloPnLDistribution.png)
+
+
+
+
+## Yield Curve Analysis
+
+![Yield Curve](YieldCurve.png)
+
+![YieldvsZeroRate](YieldvsZeroRate.png)
+
+![ZeroRateCurve](ZeroRateCurve.png)
+
+![ForwardRateCurve](ForwardRateCurve.png)
 
 
 
