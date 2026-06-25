@@ -407,7 +407,7 @@ This interactive Power BI dashboard provides insights into:
 
 ### Dashboard Preview
 
-![Bond Analytics Dashboard] (powerbi/Screenshot 2026-06-25 221149.png)
+![Bond Analytics Dashboard] (Screenshot 2026-06-25 221149.png)
 
 ## Screenshots
 
