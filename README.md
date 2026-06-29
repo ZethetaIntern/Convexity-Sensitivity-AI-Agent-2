@@ -4,10 +4,11 @@
 
 
 A Python-based financial analytics project designed to evaluate fixed-income securities and portfolio risk. The project implements bond pricing models, duration and convexity analysis, Monte Carlo simulations, and yield curve analytics to support investment decision-making and risk assessment.
-=======
-A comprehensive financial analytics project focused on bond valuation, portfolio risk assessment, yield curve analysis, and Monte Carlo simulation. This project leverages Python, SQL, and data visualization techniques to analyze fixed-income securities and support data-driven investment decisions.
 
 ---
+
+A comprehensive financial analytics project focused on bond valuation, portfolio risk assessment, yield curve analysis, and Monte Carlo simulation. This project leverages Python, SQL, and data visualization techniques to analyze fixed-income securities and support data-driven investment decisions.
+
 
 ## Business Problem
 
@@ -77,7 +78,6 @@ This project provides an analytical framework to address these challenges using 
 * Portfolio allocation visualization
 * Risk metrics dashboard
 * Performance monitoring charts
-=======
 * Calculate bond prices using discounted cash flow methods
 * Measure Duration and Convexity for interest-rate risk analysis
 * Analyze portfolio-level performance and risk metrics
@@ -385,7 +385,7 @@ This solution helps analysts and portfolio managers make informed investment dec
 * Advanced Value-at-Risk (VaR) models
 * Power BI dashboard integration
 * Automated reporting workflows
-=======
+
 ## Power BI Dashboard
 
 ### Bond Analytics & Yield Curve Dashboard
@@ -408,21 +408,32 @@ This interactive Power BI dashboard provides insights into:
 
 ## Monte Carlo Simulation
 
-![Monte Carlo](MonteCarloPnLDistribution.png)
+![Monte Carlo PnL Distribution](MonteCarloSimulation/MonteCarloPnLDistribution.png)
+
+![Monte Carlo Porfolio Simulation](MonteCarloSimulation/MonteCarloPortfolioSimulation.png)
+
 
 
 
 
 ## Yield Curve Analysis
 
-![Yield Curve](YieldCurve.png)
+![Yield Curve](YieldCurveAnalysis/ForwardRateCurve.png)
 
-![YieldvsZeroRate](YieldvsZeroRate.png)
+![YieldvsZeroRate](YieldCurveAnalysis/YieldvsZeroRate.png)
 
-![ZeroRateCurve](ZeroRateCurve.png)
+![ZeroRateCurve](YieldCurveAnalysis/ZeroRateCurve.png)
 
-![ForwardRateCurve](ForwardRateCurve.png)
+![ForwardRateCurve](YieldCurveAnalysis/ForwardRateCurve.png)
 
+
+## Business Conclusions
+
+1. Portfolio duration is the primary driver of interest-rate risk.
+2. Convexity improves price sensitivity estimates.
+3. Yield curve shifts significantly affect long-duration securities.
+4. Monte Carlo simulation provides probabilistic risk estimates.
+5. Portfolio managers can use these insights for hedging and asset allocation decisions.
 
 
 ---
@@ -457,9 +468,3 @@ Data Analyst | Python | SQL | Power BI | Financial Analytics
 ## GitHub Portfolio Project
 
 This project was developed as part of a hands-on financial analytics and portfolio risk management learning initiative, demonstrating practical applications of Python, SQL, quantitative finance, and data visualization techniques.
-
-
-
-
-=======
-
